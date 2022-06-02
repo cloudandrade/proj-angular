@@ -103,27 +103,11 @@
     "@angular-devkit/core" "8.1.1"
     rxjs "6.4.0"
 
-"@angular/animations@^8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-8.1.1.tgz#ee8222d700db5d56e78dfd2b9d26efc70102964d"
-  integrity sha512-9P9Yyf2/IUMs0MR4CfthBaMdizbTh8dDSLJHhMw1PjxPQ3c6mn74uY46NyxcJnCxII9oA2pnnV/O+10JFUFKMw==
-  dependencies:
-    tslib "^1.9.0"
-
 "@angular/animations@angular/animations-builds":
   version "8.2.0-next.1"
   resolved "https://codeload.github.com/angular/animations-builds/tar.gz/2d66d59b87898199135baced1c21d91b223a86f9"
   dependencies:
     tslib "^1.9.0"
-
-"@angular/cdk@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-8.0.2.tgz#599b7fd06caed8cbea41f8f7874ddcea5dfc99ce"
-  integrity sha512-Tv9M0vuTp7Ogk7mRiEpzBG9x5289FXe+WH0VKqN4zTzF/taTgGEuJBLDcFrwQMW0mFpGP7acVOiopgH+nClytg==
-  dependencies:
-    tslib "^1.7.1"
-  optionalDependencies:
-    parse5 "^5.0.0"
 
 "@angular/cdk@angular/cdk-builds":
   version "8.0.2-fe266149a"
@@ -188,12 +172,12 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/core@~8.1.0":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-8.1.1.tgz#888fb879906a46429ddac7163fe25915ce5a7f8f"
-  integrity sha512-B6x8IZeu0Qm2H13leEcNzsx0pGKHMvowziurvDnm7W97MaVrYrgbelNsnly4wNX91FzdBtSVXqbe3jijAD9kjA==
+"@angular/core@~11.0.5":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
+  integrity sha512-XAXWQi7R3ucZXQwx9QK5jSKJeQyRJ53u2dQDpr7R5stzeCy1a5hrNOkZLg9zOTTPcth/6+FrOrRZP9SMdxtw3w==
   dependencies:
-    tslib "^1.9.0"
+    tslib "^2.0.0"
 
 "@angular/forms@~8.1.0":
   version "8.1.1"
@@ -206,13 +190,6 @@
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-8.1.1.tgz#5940b764fa395b75acd50777721c0aa2914e58c9"
   integrity sha512-72ILJBDGhmXUsufxjDT1dzt0oOV7EHWUePgk4xv2s9/gg/xeB0XEDv+AH4LNcYKrbUWyZj7/z7wPzJe+K5PfKQ==
-
-"@angular/material@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-8.0.2.tgz#c648e0f52d94b37e3dddfd879223202aa0d11587"
-  integrity sha512-Q6YxX7zLsfI1kv0dSJSENSyCuwq7GdHjHzOGeogGfjQRvX3N/ty/z8YfwhQFzZ3XtIysbhuGcpAUWazgWeIKgw==
-  dependencies:
-    tslib "^1.7.1"
 
 "@angular/material@angular/material2-builds":
   version "8.0.2-fe266149a"
@@ -6500,6 +6477,11 @@ tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+
+tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslint@~5.15.0:
   version "5.15.0"
